@@ -1,104 +1,53 @@
-<mxfile host="app.diagrams.net" modified="2023-02-17T07:36:37.984Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="JAN-axIjOgI6Bz0kA-7E" version="20.8.20" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-17T07:38:51.064Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="L9PKAZ_wJg33Lfs4T9Pr" version="20.8.20" type="github">
   <diagram name="Page-1" id="74e2e168-ea6b-b213-b513-2b3c1d86103e">
-    <mxGraphModel dx="1434" dy="1646" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1434" dy="796" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="b6_RLqLPcu_OV3eUK9mM-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="b6_RLqLPcu_OV3eUK9mM-4" target="b6_RLqLPcu_OV3eUK9mM-7">
+        <mxCell id="b6_RLqLPcu_OV3eUK9mM-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="b6_RLqLPcu_OV3eUK9mM-4" target="b6_RLqLPcu_OV3eUK9mM-7" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="b6_RLqLPcu_OV3eUK9mM-4" value="start" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="b6_RLqLPcu_OV3eUK9mM-4" value="start" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="300" y="40" width="80" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="b6_RLqLPcu_OV3eUK9mM-5" value="end" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="300" y="790" width="80" height="50" as="geometry" />
+        <mxCell id="b6_RLqLPcu_OV3eUK9mM-5" value="end" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="300" y="760" width="80" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="b6_RLqLPcu_OV3eUK9mM-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="b6_RLqLPcu_OV3eUK9mM-7" target="b6_RLqLPcu_OV3eUK9mM-8">
+        <mxCell id="b6_RLqLPcu_OV3eUK9mM-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="b6_RLqLPcu_OV3eUK9mM-7" target="b6_RLqLPcu_OV3eUK9mM-8" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="b6_RLqLPcu_OV3eUK9mM-7" value="用户在排班前设置线路排班设置" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="1">
+        <mxCell id="b6_RLqLPcu_OV3eUK9mM-7" value="用户在排班前设置线路排班设置" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="1" vertex="1">
           <mxGeometry x="290" y="130" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="b6_RLqLPcu_OV3eUK9mM-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="b6_RLqLPcu_OV3eUK9mM-8" target="b6_RLqLPcu_OV3eUK9mM-11">
+        <mxCell id="b6_RLqLPcu_OV3eUK9mM-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="b6_RLqLPcu_OV3eUK9mM-8" target="b6_RLqLPcu_OV3eUK9mM-11" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="b6_RLqLPcu_OV3eUK9mM-8" value="用户输入发车间隔以及开始结束时间" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="1">
+        <mxCell id="b6_RLqLPcu_OV3eUK9mM-8" value="用户输入发车间隔以及开始结束时间" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="1" vertex="1">
           <mxGeometry x="290" y="220" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="b6_RLqLPcu_OV3eUK9mM-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="b6_RLqLPcu_OV3eUK9mM-10" target="b6_RLqLPcu_OV3eUK9mM-5">
+        <mxCell id="b6_RLqLPcu_OV3eUK9mM-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="b6_RLqLPcu_OV3eUK9mM-10" target="b6_RLqLPcu_OV3eUK9mM-5" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="b6_RLqLPcu_OV3eUK9mM-10" value="预览时刻表" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="1">
-          <mxGeometry x="290" y="690" width="100" height="60" as="geometry" />
+        <mxCell id="b6_RLqLPcu_OV3eUK9mM-10" value="预览时刻表" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="1" vertex="1">
+          <mxGeometry x="290" y="650" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="b6_RLqLPcu_OV3eUK9mM-45" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="b6_RLqLPcu_OV3eUK9mM-11" target="b6_RLqLPcu_OV3eUK9mM-44">
+        <mxCell id="b6_RLqLPcu_OV3eUK9mM-45" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="b6_RLqLPcu_OV3eUK9mM-11" target="b6_RLqLPcu_OV3eUK9mM-44" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="b6_RLqLPcu_OV3eUK9mM-11" value="生成粗略时刻表List" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="1">
+        <mxCell id="b6_RLqLPcu_OV3eUK9mM-11" value="生成粗略时刻表List" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="1" vertex="1">
           <mxGeometry x="290" y="320" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="b6_RLqLPcu_OV3eUK9mM-38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="b6_RLqLPcu_OV3eUK9mM-34" target="b6_RLqLPcu_OV3eUK9mM-37">
+        <mxCell id="b6_RLqLPcu_OV3eUK9mM-47" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="b6_RLqLPcu_OV3eUK9mM-44" target="b6_RLqLPcu_OV3eUK9mM-46" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="b6_RLqLPcu_OV3eUK9mM-34" value="本时刻&lt;br&gt;current=List.get(i++)" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="1">
-          <mxGeometry x="731.26" y="405" width="142.5" height="70" as="geometry" />
+        <mxCell id="b6_RLqLPcu_OV3eUK9mM-44" value="先到先发：配班次和趟次" style="whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="265" y="425" width="150" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="b6_RLqLPcu_OV3eUK9mM-53" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="b6_RLqLPcu_OV3eUK9mM-37" target="b6_RLqLPcu_OV3eUK9mM-52">
+        <mxCell id="b6_RLqLPcu_OV3eUK9mM-48" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="b6_RLqLPcu_OV3eUK9mM-46" target="b6_RLqLPcu_OV3eUK9mM-10" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="b6_RLqLPcu_OV3eUK9mM-37" value="上一时刻&lt;br&gt;last=List.get(j--)" style="whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;" vertex="1" parent="1">
-          <mxGeometry x="730.5" y="520" width="145" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="b6_RLqLPcu_OV3eUK9mM-57" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="b6_RLqLPcu_OV3eUK9mM-40" target="b6_RLqLPcu_OV3eUK9mM-56">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="b6_RLqLPcu_OV3eUK9mM-40" value="设置时刻表中每个时刻&lt;br&gt;mark=&quot;新班次&quot;&lt;br&gt;occupy=&quot;未被占用&quot;" style="whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;" vertex="1" parent="1">
-          <mxGeometry x="729.82" y="150" width="145.37" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="b6_RLqLPcu_OV3eUK9mM-47" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="b6_RLqLPcu_OV3eUK9mM-44" target="b6_RLqLPcu_OV3eUK9mM-46">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="b6_RLqLPcu_OV3eUK9mM-44" value="先到先发：配班次和趟次" style="whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;" vertex="1" parent="1">
-          <mxGeometry x="265" y="440" width="150" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="b6_RLqLPcu_OV3eUK9mM-48" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="b6_RLqLPcu_OV3eUK9mM-46" target="b6_RLqLPcu_OV3eUK9mM-10">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="b6_RLqLPcu_OV3eUK9mM-46" value="可选：平衡班次间趟次差异" style="whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;" vertex="1" parent="1">
-          <mxGeometry x="265" y="560" width="150" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="b6_RLqLPcu_OV3eUK9mM-49" value="" style="shape=singleArrow;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="450" y="440" width="220" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="b6_RLqLPcu_OV3eUK9mM-50" value="排班次趟次时刻表" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="490" y="425" width="120" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="b6_RLqLPcu_OV3eUK9mM-55" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="b6_RLqLPcu_OV3eUK9mM-52" target="b6_RLqLPcu_OV3eUK9mM-54">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="b6_RLqLPcu_OV3eUK9mM-52" value="current本次发车时间&amp;gt;=last.下次发车时间" style="rhombus;whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;" vertex="1" parent="1">
-          <mxGeometry x="673.31" y="630" width="259.37" height="160" as="geometry" />
-        </mxCell>
-        <mxCell id="b6_RLqLPcu_OV3eUK9mM-54" value="current.mark= &quot;老班次&quot;&lt;br&gt;last.occupy=&quot;已被占用&quot;" style="whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;" vertex="1" parent="1">
-          <mxGeometry x="729" y="840" width="147" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="b6_RLqLPcu_OV3eUK9mM-58" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="b6_RLqLPcu_OV3eUK9mM-56" target="b6_RLqLPcu_OV3eUK9mM-34">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="b6_RLqLPcu_OV3eUK9mM-56" value="i=0&lt;br&gt;j=list.size()" style="whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;" vertex="1" parent="1">
-          <mxGeometry x="742.3150000000002" y="290" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="b6_RLqLPcu_OV3eUK9mM-62" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="b6_RLqLPcu_OV3eUK9mM-59" target="b6_RLqLPcu_OV3eUK9mM-61">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="b6_RLqLPcu_OV3eUK9mM-59" value="start" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="762.3199999999999" y="-30" width="80" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="b6_RLqLPcu_OV3eUK9mM-66" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="b6_RLqLPcu_OV3eUK9mM-61" target="b6_RLqLPcu_OV3eUK9mM-40">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="b6_RLqLPcu_OV3eUK9mM-61" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;时刻表 List按发车时间升序排序&lt;/span&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="739.1600000000001" y="60" width="127.68" height="60" as="geometry" />
+        <mxCell id="b6_RLqLPcu_OV3eUK9mM-46" value="可选：平衡班次间趟次差异" style="whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="265" y="530" width="150" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
