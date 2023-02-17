@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-02-17T07:58:25.036Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="CRvFEW4TqXcuIRCFSpNq" version="20.8.20" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-17T08:00:03.794Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="WCVQpO2kcfFDhJyPqhoz" version="20.8.20" type="github">
   <diagram name="Page-1" id="74e2e168-ea6b-b213-b513-2b3c1d86103e">
-    <mxGraphModel dx="1434" dy="1646" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
+    <mxGraphModel dx="2206" dy="2075" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -19,7 +19,7 @@
         <mxCell id="b6_RLqLPcu_OV3eUK9mM-57" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="b6_RLqLPcu_OV3eUK9mM-40" target="b6_RLqLPcu_OV3eUK9mM-56" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="b6_RLqLPcu_OV3eUK9mM-40" value="设置时刻表中每个时刻&lt;br&gt;mark=&quot;新班次&quot;&lt;br&gt;occupy=&quot;未被占用&quot;" style="whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;" parent="1" vertex="1">
+        <mxCell id="b6_RLqLPcu_OV3eUK9mM-40" value="设置时刻表中每个时刻&lt;br&gt;mark=&quot;新班次&quot;&lt;br&gt;occupy=&quot;未被占用&quot;" style="whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
           <mxGeometry x="166.51000000000005" y="150" width="145.37" height="80" as="geometry" />
         </mxCell>
         <mxCell id="b6_RLqLPcu_OV3eUK9mM-55" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="b6_RLqLPcu_OV3eUK9mM-52" target="b6_RLqLPcu_OV3eUK9mM-54" edge="1">
@@ -34,7 +34,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="b6_RLqLPcu_OV3eUK9mM-52" value="current.本次发车时间&lt;br&gt;&amp;gt;=&lt;br&gt;last.下次发车时间" style="rhombus;whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;" parent="1" vertex="1">
+        <mxCell id="b6_RLqLPcu_OV3eUK9mM-52" value="current.本次发车时间&lt;br&gt;&amp;gt;=&lt;br&gt;last.下次发车时间" style="rhombus;whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
           <mxGeometry x="149.01" y="840" width="180" height="130" as="geometry" />
         </mxCell>
         <mxCell id="uJ6rCUKyQftRGIBS0sDm-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=20;" edge="1" parent="1" source="b6_RLqLPcu_OV3eUK9mM-54">
@@ -46,7 +46,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="b6_RLqLPcu_OV3eUK9mM-54" value="current.mark= &quot;老班次&quot;&lt;br&gt;last.occupy=&quot;已被占用&quot;" style="whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;" parent="1" vertex="1">
+        <mxCell id="b6_RLqLPcu_OV3eUK9mM-54" value="current.mark= &quot;老班次&quot;&lt;br&gt;last.occupy=&quot;已被占用&quot;" style="whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
           <mxGeometry x="164.88" y="1020" width="147" height="60" as="geometry" />
         </mxCell>
         <mxCell id="uJ6rCUKyQftRGIBS0sDm-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="b6_RLqLPcu_OV3eUK9mM-56" target="uJ6rCUKyQftRGIBS0sDm-1">
@@ -70,12 +70,13 @@
         <mxCell id="uJ6rCUKyQftRGIBS0sDm-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="uJ6rCUKyQftRGIBS0sDm-1" target="b6_RLqLPcu_OV3eUK9mM-34">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="uJ6rCUKyQftRGIBS0sDm-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=20;" edge="1" parent="1" source="uJ6rCUKyQftRGIBS0sDm-1" target="uJ6rCUKyQftRGIBS0sDm-10">
+        <mxCell id="uJ6rCUKyQftRGIBS0sDm-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=20;" edge="1" parent="1" source="uJ6rCUKyQftRGIBS0sDm-1" target="uJ6rCUKyQftRGIBS0sDm-29">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="70" y="420" />
               <mxPoint x="70" y="1140" />
               <mxPoint x="239" y="1140" />
+              <mxPoint x="239" y="1190" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -103,7 +104,7 @@
           <mxGeometry x="199.01" y="610" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="uJ6rCUKyQftRGIBS0sDm-10" value="end" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="199.00999999999993" y="1200" width="80" height="50" as="geometry" />
+          <mxGeometry x="199.68999999999994" y="1330" width="80" height="50" as="geometry" />
         </mxCell>
         <mxCell id="uJ6rCUKyQftRGIBS0sDm-12" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;打标记&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="60" y="-90" width="100" height="60" as="geometry" />
@@ -122,6 +123,12 @@
         </mxCell>
         <mxCell id="uJ6rCUKyQftRGIBS0sDm-27" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;No&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=20;" vertex="1" parent="1">
           <mxGeometry x="90" y="720" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="uJ6rCUKyQftRGIBS0sDm-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;" edge="1" parent="1" source="uJ6rCUKyQftRGIBS0sDm-29" target="uJ6rCUKyQftRGIBS0sDm-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uJ6rCUKyQftRGIBS0sDm-29" value="输出List" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="179.69" y="1200" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
