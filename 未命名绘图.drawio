@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-23T06:17:12.933Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="G0hT-1kRSDUCh9JvJTP-" version="20.8.22" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-23T07:42:38.529Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="iOsKXZQ6Ie1J-tiCvCvl" version="20.8.22" type="github">
   <diagram name="第 1 页" id="WiTagBOTv5Obc7UUUAwQ">
     <mxGraphModel dx="2022" dy="1832" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -55,7 +55,7 @@
         <mxCell id="cPGGd7SGVUYD-8CJLFrh-28" value="09:31 -&amp;gt; 10:11" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="510" y="200" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="cPGGd7SGVUYD-8CJLFrh-29" value="09:38 -&amp;gt; 10:18" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="cPGGd7SGVUYD-8CJLFrh-29" value="09:38 -&amp;gt; 10:18" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
           <mxGeometry x="510" y="240" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="cPGGd7SGVUYD-8CJLFrh-30" value="09:45 -&amp;gt; 10:25" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -106,8 +106,26 @@
         <mxCell id="0OCsSbj0izXZ-WNtlttm-11" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;发车阈值 5 min&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="310" y="-30" width="130" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="0OCsSbj0izXZ-WNtlttm-12" value="运营时长 40 min , 停场时间 10 min ,发车间隔 10 min" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="0OCsSbj0izXZ-WNtlttm-12" value="运营时长 30 min , 停场时间 10 min ,发车间隔 7 min" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="460" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0OCsSbj0izXZ-WNtlttm-19" value="09:39 -&amp;gt; 10:19" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="713" y="240" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0OCsSbj0izXZ-WNtlttm-20" value="09:46 -&amp;gt; 10:26" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="713" y="280" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0OCsSbj0izXZ-WNtlttm-21" value="09:53 -&amp;gt; 10:33" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="713" y="320" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0OCsSbj0izXZ-WNtlttm-22" value="10:00 -&amp;gt; 10:40" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="713" y="360" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0OCsSbj0izXZ-WNtlttm-23" value="10:07 -&amp;gt; 10:47" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="713" y="400" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0OCsSbj0izXZ-WNtlttm-24" value="10:14 -&amp;gt; 10:54" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="713" y="440" width="140" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
