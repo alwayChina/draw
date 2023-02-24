@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-24T08:14:52.549Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="iq7BwfIFMmWAm_e7og0X" version="20.8.23" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-24T08:34:26.438Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="NVNUeDaOHbzQ7wTxfO7P" version="20.8.23" type="github">
   <diagram name="第 1 页" id="s4p9PXEY1-m2cJ6-EViR">
     <mxGraphModel dx="819" dy="455" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -46,8 +46,8 @@
         <mxCell id="UitlESXoEeJDeEfWYD9--16" value="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=1;fontSize=11;" parent="1" vertex="1">
           <mxGeometry x="90" y="150" width="20" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="UitlESXoEeJDeEfWYD9--17" value="固定首末三趟发车时间及间隔" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;" parent="1" vertex="1">
-          <mxGeometry x="100" y="145" width="180" height="30" as="geometry" />
+        <mxCell id="UitlESXoEeJDeEfWYD9--17" value="固定首末三趟发车时间及其间隔" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="110" y="145" width="190" height="30" as="geometry" />
         </mxCell>
         <mxCell id="UitlESXoEeJDeEfWYD9--18" value="2" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=1;fontSize=11;" parent="1" vertex="1">
           <mxGeometry x="90" y="340" width="20" height="20" as="geometry" />
@@ -88,17 +88,14 @@
             <mxPoint x="360" y="282.87" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="kuesPofq2FlbMHJjlZh1-1" value="total_new_interval&amp;nbsp;= df[&quot;interval&quot;].sum() - df.loc[df.shape[0]-1,&quot;interval&quot;]&amp;nbsp; &amp;nbsp; &amp;nbsp; 新间隔之和 （&lt;font style=&quot;border-color: var(--border-color); font-size: 11px; text-align: center;&quot;&gt;9的&lt;/font&gt;interval不参与计算）&lt;br&gt;&lt;br&gt;total_old_interval&amp;nbsp;=&amp;nbsp; df_old[&quot;interval&quot;].sum() - df_old.loc[df_old.shape[0]-1,&quot;interval&quot;] 新间隔之和 （&lt;font style=&quot;border-color: var(--border-color); font-size: 11px; text-align: center;&quot;&gt;12的&lt;/font&gt;interval不参与计算）&lt;br&gt;&lt;br&gt;total_new_time&amp;nbsp;= (endtime.timestamp() - starttime.timestamp())/60&lt;br&gt;&lt;br&gt;total_old_time&amp;nbsp;= (df_old[&quot;starttime&quot;].max().timestamp() - df_old[&quot;starttime&quot;].min().timestamp()) / 60&amp;nbsp; &amp;nbsp;12的startTime - 1的startTime" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="125" y="340" width="695" height="120" as="geometry" />
+        <mxCell id="kuesPofq2FlbMHJjlZh1-1" value="total_new_interval&amp;nbsp;= df[&quot;interval&quot;].sum() - df.loc[df.shape[0]-1,&quot;interval&quot;]&amp;nbsp; &amp;nbsp; &amp;nbsp; 新间隔之和 （&lt;font style=&quot;border-color: var(--border-color); font-size: 11px; text-align: center;&quot;&gt;9的&lt;/font&gt;interval不参与计算）&lt;br&gt;&lt;br&gt;total_old_interval&amp;nbsp;=&amp;nbsp; df_old[&quot;interval&quot;].sum() - df_old.loc[df_old.shape[0]-1,&quot;interval&quot;] 新间隔之和 （&lt;font style=&quot;border-color: var(--border-color); font-size: 11px; text-align: center;&quot;&gt;12的&lt;/font&gt;interval不参与计算）&lt;br&gt;&lt;br&gt;total_new_time&amp;nbsp;= (endtime.timestamp() - starttime.timestamp())/60&lt;br&gt;&lt;br&gt;total_old_time&amp;nbsp;= (df_old[&quot;starttime&quot;].max().timestamp() - df_old[&quot;starttime&quot;].min().timestamp()) / 60&amp;nbsp; &amp;nbsp;12的startTime - 1的startTime&lt;br&gt;&lt;br&gt;intervalRate = (total_old_interval)*(total_new_time)/(total_new_interval)/(total_old_time)" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="125" y="370" width="695" height="140" as="geometry" />
         </mxCell>
         <mxCell id="kuesPofq2FlbMHJjlZh1-2" value="" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;fontSize=11;rotation=-180;" vertex="1" parent="1">
           <mxGeometry x="510" y="176.25" width="10" height="123.75" as="geometry" />
         </mxCell>
         <mxCell id="kuesPofq2FlbMHJjlZh1-3" value="old_df(此处为特例，未删趟次或改间隔)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;" vertex="1" parent="1">
           <mxGeometry x="520" y="225.25" width="230" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="kuesPofq2FlbMHJjlZh1-4" value="intervalRate = (total_old_interval)*(total_new_time)/(total_new_interval)/(total_old_time)" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="125" y="460" width="500" height="40" as="geometry" />
         </mxCell>
         <mxCell id="kuesPofq2FlbMHJjlZh1-8" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -120,6 +117,9 @@
         </mxCell>
         <mxCell id="kuesPofq2FlbMHJjlZh1-11" value="interval" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="220" y="241.25" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kuesPofq2FlbMHJjlZh1-22" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 11px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;固定首末三趟发车时间及其间隔&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="125" y="340" width="200" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
