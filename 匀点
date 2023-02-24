@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-02-24T06:22:50.464Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="SxteH4K5hoBJ8bL9jh74" version="20.8.23" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-24T06:27:59.921Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="WKiT7TkhOziL0ALKmPVf" version="20.8.23" type="github">
   <diagram name="第 1 页" id="s4p9PXEY1-m2cJ6-EViR">
-    <mxGraphModel dx="574" dy="318" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="819" dy="455" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -88,8 +88,8 @@
             <mxPoint x="360" y="282.87" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="kuesPofq2FlbMHJjlZh1-1" value="total_old_interval&amp;nbsp;= df[&quot;interval&quot;].sum()-df.loc[df.shape[0]-1,&quot;interval&quot;]&lt;br&gt;&lt;br&gt;total_new_time&amp;nbsp;=&amp;nbsp; df_old[&quot;interval&quot;].sum()-df_old.loc[df_old.shape[0]-1,&quot;interval&quot;]&lt;br&gt;&lt;br&gt;total_new_interval&amp;nbsp;= (endtime.timestamp() - starttime.timestamp())/60&lt;br&gt;&lt;br&gt;total_old_time&amp;nbsp;= (df_old[&quot;starttime&quot;].max().timestamp() - df_old[&quot;starttime&quot;].min().timestamp()) / 60" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="125" y="340" width="560" height="120" as="geometry" />
+        <mxCell id="kuesPofq2FlbMHJjlZh1-1" value="total_new_interval&amp;nbsp;= df[&quot;interval&quot;].sum() - df.loc[df.shape[0]-1,&quot;interval&quot;]&amp;nbsp; &amp;nbsp; &amp;nbsp; 新间隔之和&amp;nbsp;&lt;font style=&quot;border-color: var(--border-color); font-size: 11px; text-align: center;&quot;&gt;12的&lt;/font&gt;interval不参与计算&lt;br&gt;&lt;br&gt;total_old_interval&amp;nbsp;=&amp;nbsp; df_old[&quot;interval&quot;].sum() - df_old.loc[df_old.shape[0]-1,&quot;interval&quot;]&lt;br&gt;&lt;br&gt;total_new_time&amp;nbsp;= (endtime.timestamp() - starttime.timestamp())/60&lt;br&gt;&lt;br&gt;total_old_time&amp;nbsp;= (df_old[&quot;starttime&quot;].max().timestamp() - df_old[&quot;starttime&quot;].min().timestamp()) / 60" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="125" y="340" width="615" height="120" as="geometry" />
         </mxCell>
         <mxCell id="kuesPofq2FlbMHJjlZh1-2" value="" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;fontSize=11;rotation=-180;" vertex="1" parent="1">
           <mxGeometry x="510" y="176.25" width="10" height="123.75" as="geometry" />
@@ -119,7 +119,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="kuesPofq2FlbMHJjlZh1-11" value="interval" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="220" y="235" width="60" height="30" as="geometry" />
+          <mxGeometry x="220" y="241.25" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
