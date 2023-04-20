@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-04-20T01:30:00.029Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="2dn0D590FiHp6G-8HiXQ" version="21.2.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-20T01:35:23.393Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="wAZ3YGataxXRvjo-Cv63" version="21.2.1" type="github">
   <diagram name="第 1 页" id="CIkJwnTwuOUfcU2aUMN9">
-    <mxGraphModel dx="1816" dy="1696" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2261" dy="1933" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -10,17 +10,21 @@
         <mxCell id="zBoLeljVC-QUAG856kyV-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="zBoLeljVC-QUAG856kyV-1" target="zBoLeljVC-QUAG856kyV-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="zBoLeljVC-QUAG856kyV-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="zBoLeljVC-QUAG856kyV-1" target="zBoLeljVC-QUAG856kyV-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="zBoLeljVC-QUAG856kyV-1" value="&lt;font style=&quot;font-size: 17px;&quot;&gt;排班参数服务&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="320" y="230" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="zBoLeljVC-QUAG856kyV-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="zBoLeljVC-QUAG856kyV-2" target="zBoLeljVC-QUAG856kyV-5">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="zBoLeljVC-QUAG856kyV-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="zBoLeljVC-QUAG856kyV-2" target="zBoLeljVC-QUAG856kyV-6">
+        <mxCell id="zBoLeljVC-QUAG856kyV-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.003;entryY=0.271;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="zBoLeljVC-QUAG856kyV-2" target="zBoLeljVC-QUAG856kyV-6">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="480" y="90" />
-              <mxPoint x="480" y="260" />
+              <mxPoint x="520" y="90" />
+              <mxPoint x="520" y="246" />
+              <mxPoint x="570" y="246" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -67,14 +71,14 @@
         <mxCell id="zBoLeljVC-QUAG856kyV-13" value="工时、连续工作时长" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="140" y="130" width="130" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="zBoLeljVC-QUAG856kyV-15" value="提供人车资源" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="470" y="170" width="100" height="30" as="geometry" />
+        <mxCell id="zBoLeljVC-QUAG856kyV-15" value="1、提供人车资源" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="414" y="150" width="110" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="zBoLeljVC-QUAG856kyV-18" value="提供人车配班方案" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="600" y="150" width="120" height="30" as="geometry" />
+        <mxCell id="zBoLeljVC-QUAG856kyV-18" value="4、提供人车配班方案（轮换）" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="625" y="150" width="190" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="zBoLeljVC-QUAG856kyV-20" value="提供时刻表方案" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="610" y="348" width="110" height="30" as="geometry" />
+        <mxCell id="zBoLeljVC-QUAG856kyV-20" value="3、提供时刻表方案" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="625" y="348" width="130" height="30" as="geometry" />
         </mxCell>
         <mxCell id="zBoLeljVC-QUAG856kyV-22" value="调度系统" style="whiteSpace=wrap;html=1;rounded=1;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="860" y="230" width="120" height="60" as="geometry" />
@@ -95,7 +99,7 @@
           <mxGeometry x="-220" y="230" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="zBoLeljVC-QUAG856kyV-32" value="轮休规则" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="370" y="160" width="70" height="30" as="geometry" />
+          <mxGeometry x="310" y="160" width="70" height="30" as="geometry" />
         </mxCell>
         <mxCell id="zBoLeljVC-QUAG856kyV-33" value="时刻表条件" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="374" y="330" width="80" height="30" as="geometry" />
@@ -107,7 +111,7 @@
           <mxGeometry x="165" y="313" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="zBoLeljVC-QUAG856kyV-39" value="调度分析数据、调度历史数据" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-110" y="220" width="180" height="30" as="geometry" />
+          <mxGeometry x="-100" y="228" width="180" height="30" as="geometry" />
         </mxCell>
         <mxCell id="zBoLeljVC-QUAG856kyV-40" value="调度历史&lt;br&gt;数据" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="170" y="348" width="70" height="40" as="geometry" />
@@ -125,7 +129,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="zBoLeljVC-QUAG856kyV-45" value="线路人车归属数据" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="390" y="-42" width="120" height="30" as="geometry" />
+          <mxGeometry x="380" y="-30" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zBoLeljVC-QUAG856kyV-47" value="2、排班限制条件" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="450" y="260" width="110" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
