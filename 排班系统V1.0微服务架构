@@ -1,14 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2023-04-20T01:41:04.617Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="P3rJPxxpcXrtbsWV_yD8" version="21.2.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-20T01:55:43.054Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="8Y_oZmvWjnx6jHEikuny" version="21.2.1" type="github">
   <diagram name="第 1 页" id="CIkJwnTwuOUfcU2aUMN9">
-    <mxGraphModel dx="2261" dy="1933" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2022" dy="2975" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="zBoLeljVC-QUAG856kyV-48" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-20" y="-10" width="810" height="520" as="geometry" />
-        </mxCell>
-        <mxCell id="zBoLeljVC-QUAG856kyV-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="zBoLeljVC-QUAG856kyV-1" target="zBoLeljVC-QUAG856kyV-4">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry x="-90" y="-1540" width="810" height="520" as="geometry" />
         </mxCell>
         <mxCell id="zBoLeljVC-QUAG856kyV-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="zBoLeljVC-QUAG856kyV-1" target="zBoLeljVC-QUAG856kyV-2">
           <mxGeometry relative="1" as="geometry" />
@@ -16,49 +13,59 @@
         <mxCell id="zBoLeljVC-QUAG856kyV-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="zBoLeljVC-QUAG856kyV-1" target="zBoLeljVC-QUAG856kyV-6">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="zBoLeljVC-QUAG856kyV-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="zBoLeljVC-QUAG856kyV-1" target="zBoLeljVC-QUAG856kyV-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="380" y="290" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="zBoLeljVC-QUAG856kyV-1" value="&lt;font style=&quot;font-size: 17px;&quot;&gt;排班参数服务&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="320" y="230" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="zBoLeljVC-QUAG856kyV-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="zBoLeljVC-QUAG856kyV-2" target="zBoLeljVC-QUAG856kyV-5">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="zBoLeljVC-QUAG856kyV-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.003;entryY=0.271;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="zBoLeljVC-QUAG856kyV-2" target="zBoLeljVC-QUAG856kyV-6">
+        <mxCell id="zBoLeljVC-QUAG856kyV-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="zBoLeljVC-QUAG856kyV-2" target="zBoLeljVC-QUAG856kyV-6">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="520" y="90" />
-              <mxPoint x="520" y="246" />
-              <mxPoint x="570" y="246" />
+              <mxPoint x="630" y="90" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="zBoLeljVC-QUAG856kyV-2" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;人车资源服务&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="320" y="60" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="zBoLeljVC-QUAG856kyV-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="zBoLeljVC-QUAG856kyV-3" target="zBoLeljVC-QUAG856kyV-6">
+        <mxCell id="zBoLeljVC-QUAG856kyV-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="zBoLeljVC-QUAG856kyV-3" target="zBoLeljVC-QUAG856kyV-6">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="zBoLeljVC-QUAG856kyV-3" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;人车配班服务&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="570" y="60" width="120" height="60" as="geometry" />
+          <mxGeometry x="320" y="378" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="zBoLeljVC-QUAG856kyV-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="zBoLeljVC-QUAG856kyV-4" target="zBoLeljVC-QUAG856kyV-5">
+        <mxCell id="zBoLeljVC-QUAG856kyV-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zBoLeljVC-QUAG856kyV-4" target="zBoLeljVC-QUAG856kyV-5">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="zBoLeljVC-QUAG856kyV-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="zBoLeljVC-QUAG856kyV-4" target="zBoLeljVC-QUAG856kyV-6">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="zBoLeljVC-QUAG856kyV-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="1" source="zBoLeljVC-QUAG856kyV-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="630" y="290" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="230" y="485" />
+              <mxPoint x="630" y="485" />
+              <mxPoint x="630" y="291" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="zBoLeljVC-QUAG856kyV-4" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;时刻表方案服务&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="320" y="390" width="120" height="60" as="geometry" />
+          <mxGeometry x="90" y="438" width="120" height="62" as="geometry" />
         </mxCell>
         <mxCell id="zBoLeljVC-QUAG856kyV-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="zBoLeljVC-QUAG856kyV-5" target="zBoLeljVC-QUAG856kyV-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="zBoLeljVC-QUAG856kyV-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="zBoLeljVC-QUAG856kyV-5">
+        <mxCell id="zBoLeljVC-QUAG856kyV-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="zBoLeljVC-QUAG856kyV-5" target="zBoLeljVC-QUAG856kyV-4">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="320" y="410" as="targetPoint" />
+            <mxPoint x="250" y="410" as="targetPoint" />
             <Array as="points">
               <mxPoint x="160" y="290" />
-              <mxPoint x="160" y="410" />
-              <mxPoint x="320" y="410" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -75,13 +82,13 @@
           <mxGeometry x="140" y="130" width="130" height="30" as="geometry" />
         </mxCell>
         <mxCell id="zBoLeljVC-QUAG856kyV-15" value="1、提供人车资源" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="414" y="150" width="110" height="30" as="geometry" />
+          <mxGeometry x="490" y="90" width="110" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="zBoLeljVC-QUAG856kyV-18" value="4、提供人车配班方案(轮换)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="625" y="150" width="170" height="30" as="geometry" />
+        <mxCell id="zBoLeljVC-QUAG856kyV-18" value="4、提供人车配班方案" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="450" y="402" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="zBoLeljVC-QUAG856kyV-20" value="3、提供时刻表方案" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="625" y="348" width="130" height="30" as="geometry" />
+          <mxGeometry x="330" y="480" width="130" height="30" as="geometry" />
         </mxCell>
         <mxCell id="zBoLeljVC-QUAG856kyV-22" value="调度系统" style="whiteSpace=wrap;html=1;rounded=1;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="840" y="230" width="120" height="60" as="geometry" />
@@ -108,19 +115,16 @@
           <mxGeometry x="310" y="160" width="70" height="30" as="geometry" />
         </mxCell>
         <mxCell id="zBoLeljVC-QUAG856kyV-33" value="时刻表条件" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="374" y="330" width="80" height="30" as="geometry" />
+          <mxGeometry x="265" y="340" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="zBoLeljVC-QUAG856kyV-36" value="时刻表数据" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="165" y="420" width="80" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="zBoLeljVC-QUAG856kyV-38" value="时刻表分析&lt;br&gt;数据" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="165" y="313" width="80" height="40" as="geometry" />
+          <mxGeometry x="70" y="330" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="zBoLeljVC-QUAG856kyV-39" value="调度分析数据&lt;br&gt;调度历史数据" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="-30" y="210" width="100" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="zBoLeljVC-QUAG856kyV-40" value="调度历史&lt;br&gt;数据" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="170" y="348" width="70" height="40" as="geometry" />
+        <mxCell id="zBoLeljVC-QUAG856kyV-40" value="调度历史数据" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="155" y="350" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="zBoLeljVC-QUAG856kyV-42" value="排班结果" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="710" y="230" width="70" height="30" as="geometry" />
@@ -142,6 +146,18 @@
         </mxCell>
         <mxCell id="zBoLeljVC-QUAG856kyV-49" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;排班系统V1.0微服务架构&lt;/font&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-180" y="-120" width="250" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="zBoLeljVC-QUAG856kyV-50" value="时刻表分析数据" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="155" y="330" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zBoLeljVC-QUAG856kyV-52" value="轮换算法" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="379" y="350" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zBoLeljVC-QUAG856kyV-56" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.992;entryY=0.069;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="zBoLeljVC-QUAG856kyV-1" target="zBoLeljVC-QUAG856kyV-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="220" y="350" as="sourcePoint" />
+            <mxPoint x="270" y="300" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
